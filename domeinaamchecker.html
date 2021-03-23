@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>domeinnaam</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            font-family: Arial,serif;
+            font-size: 25px;
+        }
+        li {
+            float: right;
+            list-style-type:none;
+        }
+
+        li a {
+            display: block;
+            color: grey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: deepskyblue;
+            color: white;
+            font-size: 28px;
+        }
+        .bovenbalk {
+            width: auto;
+            height: 50px;
+            background-color: darkblue;
+            margin-top: 5px;
+        }
+        .logo {
+            height: 100px;
+            margin-left: 50px;
+            margin-bottom: -50px;
+            margin-top: 10px;
+        }
+        .titel {
+            display: inline-block;
+            margin-left: 20%;
+            font-size: 25px;
+            font-family: Arial,serif;
+        }
+
+        .kantoor {
+            margin-left: 10%;
+            margin-right: 50%;
+        }
+        .onder {
+            margin-top: 10px;
+            height: 25px;
+            background-color:lightgray;
+            color:black;
+            font-family: Arial,serif;
+        }
+        .rechten {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<img class="logo" src="img/Screenshot 2021-03-18 at 14.21.53.png"/>
+<p style="position: absolute; margin-top: -50px; margin-left: 85%; font-size: 25px">English</p>
+<p class="titel">'Kras Design'</p>
+<a href="contact-am.html"><img src="img/engels.jpg" style="height: 50px; margin-left: 2000px; top: 0pxx;"> </a>
+<ul>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Verhuizing</a></li>
+    <li><a href="">Domeinnaam</a></li>
+    <li><a href="Home_pagina_p3.php">Home</a></li>
+</ul>
+<div class="bovenbalk"></div>
+<p>check hieronder of de gekozen websitenaam beschikbaar is</p>
+<input type="text" name="domeinnaam " value="uw gewenste domeinnaam" style="color: grey; width: 260px;">
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        if(Math.random() >= 0.5) { document.getElementById("demo").innerHTML = "deze naam is beschikbaar";
+
+        }
+        else  {
+            document.getElementById("demo").innerHTML = "deze naam is  niet beschikbaar";
+        }
+
+
+
+    }
+    document.getElementById("id").innerText
+
+
+    function ping(url) {
+        return new Promise(function(resolve, reject) {
+
+            const xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState === XMLHttpRequest.DONE) {
+                    if (xmlhttp.status === 200) {
+                        const e = JSON.parse(xmlhttp.response).exists;
+                        resolve(e);
+                    }
+                    else if (xmlhttp.status === 400) {
+                        reject(false);
+                    }
+                    else {
+                        reject(false);
+                    }
+                }
+            }
+            xmlhttp.open("GET", 'http://www.dennisvanriet.nl/ping/ping_ws.php?url=' + url + '&t=' + Math.random(), true);
+            xmlhttp.send();
+        });
+    }
+
+    //URL om te testen
+    const url = 'http://google.com';
+    ping(url).then(function(e) {
+        if (e === 'true') {
+            console.log(url + ' bestaat');
+        } else {
+            console.log(url + ' bestaat niet');
+        }
+    }).catch(function(err) {
+        console.log(url + ' bestaat niet');
+    });
+
+</script>
+
+<footer>
+    <div class="onder">
+        <p class="rechten">© 2021 Kras Design - Alle rechten voorbehouden</p></div>
+</footer>
+</body>
+</html>

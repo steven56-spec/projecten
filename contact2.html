@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verhuis pagina</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            font-family: Arial,cursive;
+            font-size: 25px;
+        }
+        li {
+            float: right;
+            list-style-type:none;
+        }
+
+        li a {
+            display: block;
+            color: grey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: deepskyblue;
+            color: white;
+            font-size: 28px;
+        }
+        .bovenbalk {
+            width: auto;
+            height: 50px;
+            background-color: darkblue;
+            margin-top: 5px;
+        }
+        .logo {
+            height: 100px;
+            margin-left: 50px;
+            margin-bottom: -50px;
+            margin-top: 10px;
+        }
+        .titel {
+            display: inline-block;
+            margin-left: 20%;
+            font-size: 25px;
+            font-family: Arial,sans-serif;
+        }
+
+
+        .onder {
+            margin-top: 10px;
+            height: 25px;
+            background-color:lightgray;
+            color:black;
+            font-family: Arial,sans-serif;
+        }
+        .rechten {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<img class="logo" src="img/Screenshot 2021-03-18 at 14.21.53.png"/>
+<p style="position: absolute; margin-top: -50px; margin-left: 85%; font-size: 25px">English</p>
+<p class="titel">'Kras Design'</p>
+<a href="contact-am.html"><img src="img/engels.jpg" style="height: 50px; margin-left: 2000px; top: 0pxx;"> </a>
+<ul>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Verhuizing</a></li>
+    <li><a href="">Domeinnaam</a></li>
+    <li><a href="Home_pagina_p3.php">Home</a></li>
+</ul>
+
+<div class="bovenbalk"></div>
+<p>Welkom bij de klantenservice van krasdesign</p>
+<p>Via onderstaand formulier kunt u contact opnemen met ons, wij nemen zo spoedig mogelijk contact met u op.</p>
+<p> Voor dringende vragen zijn wij bereikbaar op onderstaand telefoonnummer: 0612345678</p>
+<p> bereikbaar van maandag tot en met vrijdag 09:00 tot 16:30 uitgezonderd feestdagen</p>
+
+
+<h2>contact formulier</h2>
+
+<div class="container">
+    <form action="/contact.html">
+        <label for="naam">naam:</label>
+        <input type="text" id="naam" name="naam" placeholder="jouw naam..">
+        <br>
+        <label for="telefoonummer">telefoonummer:</label>
+        <input type="text" id="telefoonummer" name="telefoonummer" placeholder="telefoonummer..">
+        <br>
+        <label for="e-mail adres">e-mailadres:</label>
+        <input type="text" id="e-mail adres" name="name" placeholder="email adres.">
+        <br>
+        <label for="opmerkingen">opmerkingen:</label>
+        <textarea id="opmerkingen" name="opmerkingen" placeholder="hier uw vragen.." style="height:q00px"></textarea>
+        <br>
+        <input type="submit" value="verstuur">
+    </form>
+</div>
+<footer>
+    <div class="onder"></div>
+        <p class="rechten">© 2021 Kras Design - Alle rechten voorbehouden</p>
+</footer>
+</body>
+</html>
