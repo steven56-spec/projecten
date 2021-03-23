@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1d9ef6-3d18-47f4-aa5b-e77a7de01b0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Home_paginap_3.html" afterDir="false" />
+    <list default="true" id="7f1d9ef6-3d18-47f4-aa5b-e77a7de01b0a" name="Default Changelist" comment="addded Home_paginap_3.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +80,16 @@
       <workItem from="1615456888445" duration="1548000" />
       <workItem from="1615897315280" duration="10564000" />
       <workItem from="1616502004633" duration="1423000" />
-      <workItem from="1616504553509" duration="206000" />
+      <workItem from="1616504553509" duration="402000" />
     </task>
+    <task id="LOCAL-00001" summary="addded Home_paginap_3.html">
+      <created>1616504824424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616504824424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,11 +106,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="addded Home_paginap_3.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="addded Home_paginap_3.html" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="394" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615900388783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="394" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1615900388783" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616504827690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616504827690" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615899208244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
