@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f1d9ef6-3d18-47f4-aa5b-e77a7de01b0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="7f1d9ef6-3d18-47f4-aa5b-e77a7de01b0a" name="Default Changelist" comment="jo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home_paginap_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home_paginap_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact2.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domeinaamchecker.html" beforeDir="false" afterPath="$PROJECT_DIR$/domeinaamchecker.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +45,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$" />
@@ -65,12 +65,25 @@
       <workItem from="1614863677395" duration="2480000" />
       <workItem from="1615456888445" duration="1548000" />
       <workItem from="1615897315280" duration="10564000" />
-      <workItem from="1616502004633" duration="3640000" />
+      <workItem from="1616502004633" duration="4098000" />
+      <workItem from="1616602643578" duration="318000" />
     </task>
+    <task id="LOCAL-00001" summary="jo">
+      <created>1616508146747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616508146747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jo" />
+    <option name="LAST_COMMIT_MESSAGE" value="jo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="394" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615900388783">
@@ -89,10 +102,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1616504849254" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616506784801">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1616508157434">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1616506784801" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1616508157434" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616508078200">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1616508078200" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615899208244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
